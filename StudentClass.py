@@ -18,4 +18,10 @@ class Student:
 
     def attavg(self):
         return sum(self.attend) / len(self.attend)
+
+    def classbell(self):
+        print("Ring the class bell")
+
+    def gohome(self):
+        print('Time to go home, school has ended')
         
